@@ -14,6 +14,6 @@ def generate_html(folder_path, output_file):
         html_file.write('</html>\n')
 
  
-folder_path = 'simple_video_sample/svd'
+folder_path = 'outputs/simple_video_sample/svd'
 output_file = 'result.html'
 generate_html(folder_path, output_file)
